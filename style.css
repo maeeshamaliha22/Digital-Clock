@@ -66,12 +66,27 @@ body
     
 }
 
-#clock #time div:last-child span
+#clock #time div:nth-last-child(2) span
 {
     background-color: #808080;  
 }
 
-#clock #time div:last-child span:nth-child(2)
+#clock #time div:nth-last-child(2) span:nth-child(2)
 {
     background-color: #6b6b6b;  
+}
+
+#clock #time div:last-child span
+{
+    position: absolute;
+    /* display: block; */
+    background-color: #cccecf;
+    width: 60px;
+    height: 40px;
+    display: flex;  /*for flex justify-content and align-items are working*/
+    justify-content: center;
+    align-items: center;
+    top: 71px;
+    font-size: 1.2em;
+    -webkit-box-reflect: below 3px linear-gradient(transparent, #0009);
 }
