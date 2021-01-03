@@ -19,10 +19,10 @@ body
     display: block;
     text-align: center;
     margin: 10px 0;
-    font-weight: 700;
+    font-weight: 750;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
-    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    font-size: 1em;
     color: #fff;
     
 }
@@ -61,6 +61,10 @@ body
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 300;
-    background-color: #a6a6a6;
-    
+    background-color: #a6a6a6;  
+}
+
+#clock #time div:last-child span
+{
+    background-color: #757575;  
 }
